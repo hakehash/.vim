@@ -11,6 +11,6 @@ endif
 setlocal foldmethod=syntax
 setlocal nolinebreak
 if !filereadable('Makefile') && executable('ptex2pdf')
-  setlocal makeprg=ptex2pdf\ -l\ %
+  setlocal makeprg=ptex2pdf\ -l\ -u\ %
 endif
 
