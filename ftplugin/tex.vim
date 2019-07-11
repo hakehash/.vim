@@ -2,7 +2,7 @@
 " Language:     LaTeX
 " Maintainer:   hakehash
 " URL:          http://github.com/hakehash/vimrc
-" Last Changed: 1 Jul 2019
+" Last Change:  11-Jul-2019.
 
 inoremap <buffer> $ $$<LEFT>
 if has('syntax') && has('eval')
@@ -11,6 +11,10 @@ endif
 setlocal foldmethod=syntax
 setlocal nolinebreak
 if !filereadable('Makefile') && executable('ptex2pdf')
-  setlocal makeprg=ptex2pdf\ -l\ -u\ %
+  if getline(1) =~ "uplatex"
+    setlocal makeprg=ptex2pdf\ -l\ -u\ %
+  else
+    setlocal makeprg=ptex2pdf\ -l\ %
+  endif
 endif
 
