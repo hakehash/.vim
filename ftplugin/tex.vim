@@ -1,8 +1,8 @@
 " Vim filetype plugin file
-" Language:     LaTeX
-" Maintainer:   hakehash
-" URL:          http://github.com/hakehash/vimrc
-" Last Change:  11-Jul-2019.
+" Language:    LaTeX
+" Maintainer:  hakehash
+" URL:         http://github.com/hakehash/vimrc
+" Last Change: 12-Jul-2019.
 
 inoremap <buffer> $ $$<LEFT>
 if has('syntax') && has('eval')
@@ -17,4 +17,4 @@ if !filereadable('Makefile') && executable('ptex2pdf')
     setlocal makeprg=ptex2pdf\ -l\ %
   endif
 endif
-
+setlocal spell
