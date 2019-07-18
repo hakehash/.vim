@@ -1,5 +1,9 @@
 # http://www.drchip.org/astronaut/vim/index.html#LATEXPKGS
 /after/syntax/tex/
 
+/doc/
+/lang/
+/plugin/
+/syntax/help_ja.vim
 .netrwhist
 .VimballRecord
