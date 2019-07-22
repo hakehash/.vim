@@ -2,7 +2,7 @@
 " Language:    TeX
 " Maintainer:  hakehash
 " URL:         https://github.com/hakehash
-" Last change: 1 Jul. 2019
+" Last change: 22 Jul 2019.
 
-syntax region Comment start="\\begin{comment}\n" end="\n\\end{comment}"
-highlight link Comment Comment
+syntax region texComment start="\\begin{comment}" end="\\end{comment}"
+highlight link texComment Comment
