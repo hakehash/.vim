@@ -1,11 +1,11 @@
 " Vim syntax file
 " Language:    LS-DYNA
 " Maintainer:  hakehash
-" URL:         http://overpass.dokkoisho.com
-" Last change: 17 Apr. 2018
+" URL:         https://github.com/hakehash
+" Last change: 07 Jan 2020
 
-syntax region KeywordCard start="*" end="$"
+syntax region DataCard matchgroup=KeywordCard start="\*.*\>" end="\ze\*" contains=Comment fold
 syntax region Comment start="\$" end="$"
 
 highlight link KeywordCard Statement
-highlight link Comment Comment
+highlight link DataCard Normal
