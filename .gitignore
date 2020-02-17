@@ -3,6 +3,7 @@
 
 /doc/
 /lang/
+/pack/
 /plugin/
 /syntax/help_ja.vim
 .netrwhist
