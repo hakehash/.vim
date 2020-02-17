@@ -2,7 +2,7 @@
 " Language:    LaTeX
 " Maintainer:  hakehash
 " URL:         http://github.com/hakehash/vimrc
-" Last Change: 01-Sep-2019.
+" Last Change: 29-Jan-2020.
 
 inoremap <buffer> $ $$<LEFT>
 if has('syntax') && has('eval')
@@ -16,6 +16,10 @@ if !filereadable('Makefile') && executable('ptex2pdf')
   else
     setlocal makeprg=ptex2pdf\ -l\ -ot\ '-halt-on-error\ -interaction=nonstopmode\ -file-line-error'\ %
   endif
+endif
+if getline(1) =~ "beamer"
+  inoremap <buffer> < <><LEFT>
+  setlocal matchpairs+=<:>
 endif
 setlocal spell
 
