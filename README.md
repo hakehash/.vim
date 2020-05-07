@@ -22,3 +22,7 @@ Vim scriptでファイルの内容(具体的には1行目にBveTs Mapという�
 
 ### スクリーンショット
 ![スクリーンショット](http://overpass.dokkoisho.com/bve/mapsyntax.png)
+
+## See also
+日本語版help: [https://github.com/vim-jp/vimdoc-ja](https://github.com/vim-jp/vimdoc-ja)
+
