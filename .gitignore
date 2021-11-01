@@ -2,9 +2,12 @@
 /after/syntax/tex/
 
 /doc/
+/keymap/
 /lang/
 /pack/
 /plugin/
 /syntax/help_ja.vim
+/syntax/help_ru.vim
+/syntax/READMERU.txt
 .netrwhist
 .VimballRecord
