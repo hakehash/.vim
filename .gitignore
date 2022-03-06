@@ -8,8 +8,8 @@
 /pack/
 /plugin/
 /syntax/help_ja.vim
-/syntax/skkdict.vim
 /syntax/help_ru.vim
 /syntax/READMERU.txt
+/syntax/skkdict.vim
 .netrwhist
 .VimballRecord
