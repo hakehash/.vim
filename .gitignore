@@ -3,10 +3,13 @@
 
 /doc/
 /ftdetect/skkdict.vim
+/keymap/
 /lang/
 /pack/
 /plugin/
 /syntax/help_ja.vim
 /syntax/skkdict.vim
+/syntax/help_ru.vim
+/syntax/READMERU.txt
 .netrwhist
 .VimballRecord
