@@ -2,9 +2,11 @@
 /after/syntax/tex/
 
 /doc/
+/ftdetect/skkdict.vim
 /lang/
 /pack/
 /plugin/
 /syntax/help_ja.vim
+/syntax/skkdict.vim
 .netrwhist
 .VimballRecord
