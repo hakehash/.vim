@@ -6,6 +6,8 @@ loadkeymap
 ] 」
 z[ 『
 z] 』
+, 、
+. 。
 z, ‥
 z. …
 z/ ・
