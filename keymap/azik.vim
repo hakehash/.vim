@@ -11,6 +11,7 @@ z] 』
 z, ‥
 z. …
 z/ ・
+z- ～
 xzh ←
 xzj ↓
 xzk ↑
