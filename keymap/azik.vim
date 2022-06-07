@@ -15,10 +15,10 @@ z/ ・
 ' ー
 - ー
 z- ～
-xzh ←
-xzj ↓
-xzk ↑
-xzl →
+xxh ←
+xxj ↓
+xxk ↑
+xxl →
 
 a あ
 i い
