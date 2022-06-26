@@ -7,14 +7,17 @@ loadkeymap
 z[ 『
 z] 』
 , 、
-. 。
 z, ‥
+. 。
 z. …
 z/ ・
 : ー
+z: ゜
 ' ー
 - ー
 z- ～
+? ？
+! ！
 xxh ←
 xxj ↓
 xxk ↑
@@ -556,6 +559,7 @@ lwa ゎ
 ltsu っ
 ltu っ
 ; っ
+z; ゛
 
 kt こと
 st した
