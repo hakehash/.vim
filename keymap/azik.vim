@@ -566,7 +566,8 @@ st した
 tt たち
 ht ひと
 wt わた
-ms もの
+mn もの
+ms ます
 ds です
 km かも
 tm ため
@@ -1130,7 +1131,8 @@ ST シタ
 TT タチ
 HT ヒト
 WT ワタ
-MS モノ
+MN モノ
+MS マス
 DS デス
 KM カモ
 TM タメ
