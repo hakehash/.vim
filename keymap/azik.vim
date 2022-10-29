@@ -123,7 +123,6 @@ fj ふん
 fd ふぇん
 fl ふぉん
 mz まん
-mn もの
 mk みん
 mj むん
 md めん
@@ -493,6 +492,7 @@ zyd じぇん
 zyl じょん
 jz じゃん
 jn じゃん
+jk じん
 jj じゅん
 jd じぇん
 jl じょん
@@ -689,7 +689,6 @@ FJ フン
 FD フェン
 FL フォン
 MZ マン
-MN モノ
 MK ミン
 MJ ムン
 MD メン
@@ -1059,6 +1058,7 @@ ZYD ジェン
 ZYL ジョン
 JZ ジャン
 JN ジャン
+jk ジン
 JJ ジュン
 JD ジェン
 JL ジョン
