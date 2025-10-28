@@ -1,4 +1,4 @@
-set shiftwidth=0
-set smartindent
-set softtabstop=-1
-set tabstop=4
+setlocal shiftwidth=0
+setlocal smartindent
+setlocal softtabstop=-1
+setlocal tabstop=4
