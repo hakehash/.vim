@@ -18,7 +18,7 @@ Vim scriptでファイルの内容(具体的には1行目にBveTs Mapという�
 
     git clone https://github.com/hakehash/.vim.git
 
-で入手の上、以下のファイルを**~/.vim**にコピーすれば動作するはずです。
+で入手の上、以下のファイルを~/.vimにコピーすれば動作するはずです。
 
     syntax/bvemap.vim
     scripts.vim
