@@ -1,5 +1,6 @@
 # .vim
-Syntax files of BveTs Map and LS-PrePost.
+Syntax files of BveTs Map and LS-PrePost.  
+ftplugin for [DNVGL WASIM](https://archive.org/details/manualzilla-id-5660267) pln file.
 
 ## Vim用Bvetsマップ構文Syntaxファイル
 ### これは何？
