@@ -19,15 +19,9 @@ function! PlnFold(lnum)
     return '>2'
   elseif next =~ '^\s*\h'
     return '<2'
-<<<<<<< HEAD
-  elseif line =~ '^\s*\d+\s\+\h'
-    return '>3'
-  elseif next =~ '^\s*\d+\s\+\h'
-=======
   elseif line =~ '^\s*\d\+\s\+\h'
     return '>3'
   elseif next =~ '^\s*\d\+\s\+\h'
->>>>>>> b5126d6 (bug fix)
     return '<3'
   elseif line =~ '\s*\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s*$
     return '3'
