@@ -15,14 +15,16 @@ function! PlnFold(lnum)
   let next = getline(a:lnum+1)
   if a:lnum == 1
     return '>1'
-  elseif line =~ '^\s*\D'
+  elseif line =~ '^\s*\h'
     return '>2'
-  elseif next =~ '^\s*\D'
+  elseif next =~ '^\s*\h'
     return '<2'
-  elseif line =~ '^\s*\d*\s\D'
+  elseif line =~ '^\s*\d+\s\+\h'
     return '>3'
-  elseif next =~ '^\s*\d*\s\D'
+  elseif next =~ '^\s*\d+\s\+\h'
     return '<3'
+  elseif line =~ '\s*\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s*$
+    return '3'
   endif
   return '='
 endfunction
