@@ -23,7 +23,7 @@ function! PlnFold(lnum)
     return '>3'
   elseif next =~ '^\s*\d\+\s\+\h'
     return '<3'
-  elseif line =~ '\s*\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s*$
+  elseif line =~ '^\s*\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s\+\(\d\|\.\)\+\s*$'
     return '3'
   endif
   return '='
