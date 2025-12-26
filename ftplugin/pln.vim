@@ -1,9 +1,9 @@
 setlocal noexpandtab
 if has('folding')
-  setlocal foldcolumn=4
+  setlocal foldcolumn=3
   setlocal foldexpr=PlnFold(v:lnum)
   setlocal foldmethod=expr
-  setlocal foldnestmax=3
+  setlocal foldnestmax=2
   setlocal foldtext=getline(v:foldstart)
 endif
 setlocal tabstop=4
