@@ -7,7 +7,7 @@
 setlocal expandtab
 if has('folding')
   setlocal foldmethod=indent
-  setlocal foldnestmax=2
+  "setlocal foldnestmax=2
 endif
 setlocal tabstop=4
 setlocal shiftwidth=0
